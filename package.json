@@ -13,6 +13,7 @@
   },
   "private": true,
   "dependencies": {
+    "@angular/animations": "^4.0.0",
     "@angular/common": "^4.0.0",
     "@angular/compiler": "^4.0.0",
     "@angular/core": "^4.0.0",
@@ -21,6 +22,9 @@
     "@angular/platform-browser": "^4.0.0",
     "@angular/platform-browser-dynamic": "^4.0.0",
     "@angular/router": "^4.0.0",
+    "@progress/kendo-angular-buttons": "^1.0.5",
+    "@progress/kendo-angular-l10n": "^1.0.2",
+    "@progress/kendo-theme-default": "^2.38.0",
     "bootstrap": "4.0.0-alpha.6",
     "core-js": "^2.4.1",
     "jquery-slim": "^3.0.0",

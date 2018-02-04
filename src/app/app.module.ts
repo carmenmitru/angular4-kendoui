@@ -9,6 +9,11 @@ import { AppRoutingModule } from './app.routing';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
+// Import the Animations module
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+// Import the ButtonsModule
+import { ButtonsModule } from '@progress/kendo-angular-buttons';
 
 @NgModule({
   declarations: [
@@ -22,7 +27,10 @@ import { FooterComponent } from './footer/footer.component';
     RouterModule,
     FormsModule,
     HttpModule,
-    AppRoutingModule
+    AppRoutingModule,
+      // Register the modules
+        BrowserAnimationsModule,
+        ButtonsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
